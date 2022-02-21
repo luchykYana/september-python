@@ -6,8 +6,7 @@
 # # 2,3,5,4,4        #вивело в консолі.
 #
 # def get_numbers_from_string(str=''):
-#     return [i for i in str if i.isdigit()]
-#
+#     return ','.join([i for i in str if i.isdigit()])
 #
 # print(get_numbers_from_string('as 23 fdfdg544'))
 
@@ -21,7 +20,7 @@
 #     for i in [i for i in str_num if not i.isdigit()]:
 #         str_num = str_num.replace(i, ' ')
 #
-#     return str_num.split()
+#     return ','.join(str_num.split(),)
 #
 #
 # print(get_full_numbers_from_string('as 23 fdfdg544 34'))
